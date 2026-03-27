@@ -143,49 +143,40 @@ export default function Home() {
 
       {/* --- Hero Section --- */}
       <section className="pt-40 pb-16 px-6 text-center max-w-[900px] mx-auto relative">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.8 }} 
-          animate={{ opacity: 1, scale: 1 }} 
-          transition={{ duration: 1.5, ease: "easeOut" }}
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-blue-400/10 blur-[100px] rounded-full -z-10 pointer-events-none"
-        />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-blue-400/10 blur-[100px] rounded-full -z-10 pointer-events-none" />
         
-        <motion.div variants={staggerContainer} initial="hidden" animate="visible">
-          <motion.div variants={fadeUp} className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-xs font-semibold tracking-wide uppercase mb-8">
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-xs font-semibold tracking-wide uppercase mb-8">
             <Server size={14} /> Managed Infrastructure
-          </motion.div>
+          </div>
           
-          <motion.h1 variants={fadeUp} className="text-5xl md:text-[4.5rem] font-medium tracking-tight text-gray-900 mb-6 leading-[1.05]">
+          <h1 className="text-5xl md:text-[4.5rem] font-medium tracking-tight text-gray-900 mb-6 leading-[1.05]">
             Your own private <br className="hidden md:block" /> mail infrastructure.
-          </motion.h1>
+          </h1>
           
-          <motion.p variants={fadeUp} className="text-lg text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
             No limits. No per-email fees. Fully managed.<br/>
             DriftSpike gives you a dedicated SMTP server and REST API — so you can send unlimited emails from your own domain, without touching your Microsoft 365 or Google Workspace setup.
-          </motion.p>
+          </p>
           
-          <motion.div variants={fadeUp} className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-            <motion.a 
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.97 }}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+            <a 
               href="mailto:support@strucureo.com" 
               className="w-full sm:w-auto px-8 py-4 rounded-full font-medium text-white bg-blue-500 hover:bg-blue-600 shadow-[0_4px_20px_rgba(59,130,246,0.4)] transition-colors flex items-center justify-center text-lg"
             >
               Get started for $10/mo
-            </motion.a>
-            <motion.a 
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.97 }}
+            </a>
+            <a 
               href="mailto:support@strucureo.com" 
               className="w-full sm:w-auto px-8 py-4 rounded-full font-medium text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 transition-colors flex items-center justify-center gap-2 text-lg"
             >
               See how it works <ChevronRight size={18} className="text-gray-400" />
-            </motion.a>
-          </motion.div>
+            </a>
+          </div>
           
-          <motion.div variants={fadeUp} className="text-sm text-gray-400 font-medium">
+          <p className="text-sm text-gray-400 font-medium">
             Cancel anytime <span className="mx-2">·</span> No setup fee <span className="mx-2">·</span> Onboarding included
-          </motion.div>
+          </p>
         </motion.div>
       </section>
 
