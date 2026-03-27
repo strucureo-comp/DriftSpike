@@ -125,10 +125,10 @@ export default function Home() {
              DriftSpike
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-500">
-            <a href="#features" className="hover:text-gray-900 transition-colors">Features</a>
-            <a href="#how-it-works" className="hover:text-gray-900 transition-colors">How it works</a>
-            <a href="#pricing" className="hover:text-gray-900 transition-colors">Pricing</a>
-            <a href="#faq" className="hover:text-gray-900 transition-colors">FAQ</a>
+            <a href="mailto:support@strucureo.com" className="hover:text-gray-900 transition-colors">Features</a>
+            <a href="mailto:support@strucureo.com" className="hover:text-gray-900 transition-colors">How it works</a>
+            <a href="mailto:support@strucureo.com" className="hover:text-gray-900 transition-colors">Pricing</a>
+            <a href="mailto:support@strucureo.com" className="hover:text-gray-900 transition-colors">FAQ</a>
           </div>
           <motion.a 
             href="mailto:support@strucureo.com"
@@ -679,16 +679,16 @@ export default function Home() {
             <div>
               <h4 className="font-semibold text-gray-900 mb-5 uppercase tracking-wider text-xs">DriftSpike</h4>
               <ul className="space-y-4 text-gray-500">
-                <li><a href="#features" className="hover:text-blue-500 transition-colors">Features</a></li>
-                <li><a href="#pricing" className="hover:text-blue-500 transition-colors">Pricing</a></li>
-                <li><a href="#how-it-works" className="hover:text-blue-500 transition-colors">How it works</a></li>
+                <li><a href="mailto:support@strucureo.com" className="hover:text-blue-500 transition-colors">Features</a></li>
+                <li><a href="mailto:support@strucureo.com" className="hover:text-blue-500 transition-colors">Pricing</a></li>
+                <li><a href="mailto:support@strucureo.com" className="hover:text-blue-500 transition-colors">How it works</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold text-gray-900 mb-5 uppercase tracking-wider text-xs">Strucureo</h4>
               <ul className="space-y-4 text-gray-500">
-                <li><a href="#" className="hover:text-blue-500 transition-colors">Visit strucureo.com</a></li>
-                <li><a href="#" className="hover:text-blue-500 transition-colors">Contact Strucureo</a></li>
+                <li><a href="mailto:support@strucureo.com" className="hover:text-blue-500 transition-colors">Visit strucureo.com</a></li>
+                <li><a href="mailto:support@strucureo.com" className="hover:text-blue-500 transition-colors">Contact Strucureo</a></li>
               </ul>
             </div>
           </div>
