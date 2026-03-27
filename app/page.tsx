@@ -131,7 +131,7 @@ export default function Home() {
             <a href="mailto:support@strucureo.com" className="hover:text-gray-900 transition-colors">FAQ</a>
           </div>
           <motion.a 
-            href="mailto:support@strucureo.com"
+            href="https://www.strucureo.com"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="text-sm font-medium text-white bg-gray-900 hover:bg-gray-800 px-4 py-2 rounded-full shadow-sm transition-colors hidden sm:block flex items-center text-center"
@@ -145,7 +145,7 @@ export default function Home() {
       <section className="pt-40 pb-16 px-6 text-center max-w-[900px] mx-auto relative">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-blue-400/10 blur-[100px] rounded-full -z-10 pointer-events-none" />
         
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+        <div className="opacity-100">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-xs font-semibold tracking-wide uppercase mb-8">
             <Server size={14} /> Managed Infrastructure
           </div>
@@ -177,14 +177,11 @@ export default function Home() {
           <p className="text-sm text-gray-400 font-medium">
             Cancel anytime <span className="mx-2">·</span> No setup fee <span className="mx-2">·</span> Onboarding included
           </p>
-        </motion.div>
+        </div>
       </section>
 
       {/* --- Social Proof Bar --- */}
-      <motion.section 
-        initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.8 }}
-        className="py-6 border-y border-gray-100 bg-white/50 backdrop-blur-sm"
-      >
+      <section className="py-6 border-y border-gray-100 bg-white/50 backdrop-blur-sm">
         <div className="max-w-[1000px] mx-auto px-6 flex flex-wrap justify-center items-center gap-x-8 gap-y-4 text-sm font-medium text-gray-400">
           <span className="flex items-center gap-2">Works alongside M365</span>
           <span className="hidden md:block w-1 h-1 rounded-full bg-gray-300"></span>
@@ -196,7 +193,7 @@ export default function Home() {
           <span className="hidden md:block w-1 h-1 rounded-full bg-gray-300"></span>
           <span className="flex items-center gap-2 text-gray-500">Managed by Strucureo</span>
         </div>
-      </motion.section>
+      </section>
 
       {/* --- Feature Bento Grid --- */}
       <section id="features" className="max-w-[1100px] mx-auto px-6 pt-24 pb-24">
