@@ -38,7 +38,7 @@ export default function DocsPage() {
           <span className="font-mono text-xs uppercase font-bold tracking-widest text-[#FF4400] mb-4 block">1.0 Introduction</span>
           <h1 className="text-5xl font-black uppercase mb-8">API Reference</h1>
           <p className="text-lg leading-relaxed mb-8">
-            DriftSpike, a product of <a href="https://www.strucureo.works" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#FF4400]">Strucureo</a>, provides a robust REST API for seamless email delivery.
+            DriftSpike, a product of <a href="https://www.strucureo.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#FF4400]">Strucureo</a>, provides a robust REST API for seamless email delivery.
             All endpoints are HTTPS-only.
           </p>
 

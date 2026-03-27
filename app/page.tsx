@@ -687,8 +687,8 @@ export default function Home() {
             <div>
               <h4 className="font-semibold text-gray-900 mb-5 uppercase tracking-wider text-xs">Strucureo</h4>
               <ul className="space-y-4 text-gray-500">
-                <li><a href="mailto:support@strucureo.com" className="hover:text-blue-500 transition-colors">Visit strucureo.com</a></li>
-                <li><a href="mailto:support@strucureo.com" className="hover:text-blue-500 transition-colors">Contact Strucureo</a></li>
+                <li><a href="https://www.strucureo.com" className="hover:text-blue-500 transition-colors">Visit strucureo.com</a></li>
+                <li><a href="https://www.strucureo.com/contact" className="hover:text-blue-500 transition-colors">Contact Strucureo</a></li>
               </ul>
             </div>
           </div>
