@@ -104,7 +104,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#fcfcfd]/80 backdrop-blur-md border-b border-gray-100/50">
         <div className="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2 font-bold text-lg tracking-tight text-gray-900">
-             <Image src="/logo.png" alt="DriftSpike" width={36} height={36} className="rounded-md shadow-sm" />
+             <Image src="/logo.png" alt="DriftSpike" width={36} height={36} className="rounded-full shadow-sm object-cover" />
              DriftSpike
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-500">
@@ -645,7 +645,7 @@ export default function Home() {
 
           <div className="mb-12 md:mb-0">
             <div className="flex items-center gap-3 mb-6">
-              <Image src="/logo.png" alt="DriftSpike" width={48} height={48} className="rounded-lg shadow-md" />
+              <Image src="/logo.png" alt="DriftSpike" width={48} height={48} className="rounded-full shadow-md object-cover" />
               <span className="text-2xl font-bold text-gray-900">DriftSpike</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-medium text-gray-900 mb-8 tracking-tight">Start sending today.</h2>
