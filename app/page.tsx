@@ -104,9 +104,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#fcfcfd]/80 backdrop-blur-md border-b border-gray-100/50">
         <div className="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2 font-bold text-lg tracking-tight text-gray-900">
-             <div className="w-6 h-6 rounded-md bg-blue-500 flex items-center justify-center shadow-sm transform rotate-3">
-               <Mail size={14} className="text-white transform -rotate-3" />
-             </div>
+             <Image src="/logo.png" alt="DriftSpike" width={28} height={28} className="rounded-md shadow-sm" />
              DriftSpike
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-500">
