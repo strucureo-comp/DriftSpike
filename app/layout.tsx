@@ -54,10 +54,12 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: '/logo.png', type: 'image/png' },
       { url: '/favicon.ico', sizes: 'any' },
-      { url: '/favicon.svg', type: 'image/svg+xml' },
     ],
-    apple: '/apple-touch-icon.png',
+    apple: [
+      { url: '/logo.png', type: 'image/png', sizes: '180x180' }
+    ],
   },
   manifest: '/site.webmanifest',
 };
